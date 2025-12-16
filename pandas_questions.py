@@ -18,13 +18,13 @@ def load_data():
     """Load data from the CSV files referendum/regions/departments."""
 
     referendum = pd.read_csv(
-        "./Assignments/2025-assignment-pandas/data/referendum.csv", sep=";"
+        "./data/referendum.csv", sep=";"
     )
     regions = pd.read_csv(
-        "./Assignments/2025-assignment-pandas/data/regions.csv"
+        "./data/regions.csv"
     )
     departments = pd.read_csv(
-        "./Assignments/2025-assignment-pandas/data/departments.csv"
+        "./data/departments.csv"
     )
 
     return referendum, regions, departments
